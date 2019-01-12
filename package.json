@@ -1,0 +1,40 @@
+{
+  "name": "cross-js-base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cross-js-base.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xerocross/cross-js-base.git"
+  },
+  "keywords": [],
+  "author": "Adam Cross",
+  "license": "0BSD",
+  "bugs": {
+    "url": "https://github.com/xerocross/cross-js-base/issues"
+  },
+  "homepage": "https://github.com/xerocross/cross-js-base#readme",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^23.4.0",
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint": "^5.12.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-html": "^5.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "jest": "^23.4.1",
+    "regenerator-runtime": "^0.12.0",
+    "webpack": "^4.16.2",
+    "webpack-cli": "^3.1.0"
+  }
+}
