@@ -1,25 +1,6 @@
 const Browser = require('zombie');
 import StoreLocal from "./store-local.js";
 
-
-// test("can get browser", function(done){
-    
-    
-//     //let browser = new Browser();
-//     //browser.visit("http://localhost:3000/test.html")
-
-//     // .then(function() {
-//     //     browser.window.localStorage.setItem("test", "apple");
-//     //     expect(browser.window.localStorage.getItem("test")).toBe("pear");
-//     //     done()
-//     // })
-//     // .catch(function(e){
-//     //     browser.window.localStorage.setItem("test", "apple");
-//     //     expect(browser.window.localStorage.getItem("test")).toBe("pear");
-//     //     done();
-//     // });
-// })
-
 test("can use localstorage mock",function() {
     let storeLocal = StoreLocal.build("test-key");
     expect(storeLocal).not.toBe(null);

@@ -4,7 +4,7 @@
   "description": "",
   "main": "cross-js-base.js",
   "scripts": {
-    "test": "jest --detectOpenHandles",
+    "test": "jest",
     "build": "webpack",
     "start": "node app.js"
   },
