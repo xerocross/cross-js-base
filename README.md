@@ -36,6 +36,11 @@ localStorage object.
 
 ```
 let localStore = StoreLocal.build("my-unique-index");
+// for obvious reasons, the build method does not
+// overwrite the existing content defined at the key
+// "my-unique-index"; it creates a new data structure 
+// if necessary.  If the existing data is unreadable
+// it throws an error.  Should be JSON-formatted.
 localStore.addItem("apple", "1");
 // for most predictable results, both key and value
 // should be strings because that is how browser
@@ -43,6 +48,7 @@ localStore.addItem("apple", "1");
 // fail elegantly if you use it incorrectly
 localStore.addItem("pear", "2");
 localStore.getItem("apple"); // returns "1"
+localStore.getItem("bear"); // on unknown key returns null
 localStore.getIndex(); // returns array: ["apple", "pear"]
 // the index is not guaranteed to be returned
 // in any particular order
