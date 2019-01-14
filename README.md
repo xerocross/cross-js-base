@@ -1,6 +1,8 @@
 # cross-js-base
 
 Some very generic tools for front-end use I wanted to just write myself.
+I'm not trying to replace Lodash.  I just sometimes don't want to use 
+Lodash.
 
 ## Installation
 
