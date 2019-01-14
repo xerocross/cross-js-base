@@ -7,6 +7,9 @@ let build = function (indexKey) {
         localIndex.push(key);
         storeLocal.saveIndexToDisk();
     }
+    storeLocal.getItem = function(key) {
+        return localStorage.getItem(key);
+    }
     storeLocal.getIndex = function() {
         let index = localStorage.getItem(indexKey);
         if (index == null || !index) {
@@ -33,9 +36,7 @@ let build = function (indexKey) {
             storeLocal.saveIndexToDisk();
         }
     }
-    storeLocal.getItem = function(key) {
-        return localStorage.getItem(key);
-    }
+
     storeLocal.saveIndexToDisk = function () {
         localStorage.setItem(indexKey, JSON.stringify(localIndex));
     }
