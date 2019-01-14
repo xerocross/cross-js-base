@@ -47,7 +47,11 @@ localStore.getIndex(); // returns array: ["apple", "pear"]
 // the index is not guaranteed to be returned
 // in any particular order
 localStore.removeItem("apple");
-localStore.addItem("pear", "5"); // no error, just updates
+localStore.getIndex(); // returns array: ["pear"]
+localStore.removeItem("apple"); // does nothing; no error
+localStore.addItem("pear", "5"); // no error, just updates value
+// addItem is the way to update the value associated 
+// to a key; there is no separate method for that
 
 ```
 
