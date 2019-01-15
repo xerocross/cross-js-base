@@ -1,4 +1,3 @@
-const Browser = require('zombie');
 import StoreLocal from "./store-local.js";
 let testKey = "test-key";
 
