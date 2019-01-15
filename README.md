@@ -42,7 +42,7 @@ let localStore = StoreLocal.build("my-unique-index");
 // "my-unique-index"; it creates a new data structure 
 // if necessary.  The value of assigned to 
 // "my-unique-index" in localStorage should be a 
-// JSON-formattatted array or null.  That is: it should be a 
+// JSON-formated array or null.  That is: it should be a 
 // string that JSON.parse can parse into a JavaScript
 // array or it should be null.   If the existing 
 // data is anything else, the build method will throw
