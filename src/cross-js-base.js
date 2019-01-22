@@ -1,2 +1,3 @@
 import StoreLocal from "./store-local/store-local.js";
-export {StoreLocal};
+import StringHash from "./string-hash/string-hash.js";
+export {StoreLocal, StringHash};
