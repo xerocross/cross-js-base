@@ -67,4 +67,8 @@ localStore.addItem("pear", "5"); // no error, just updates value
 
 ```
 
+### StringHash
 
+```import {StringHash} from "cross-js-base"```
+
+```let hash = StringHash.hash("apple");```
