@@ -1,6 +1,6 @@
 {
   "name": "cross-js-base",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "",
   "main": "cross-js-base.js",
   "scripts": {
@@ -13,7 +13,9 @@
     "url": "git+https://github.com/xerocross/cross-js-base.git"
   },
   "jest": {
-    "setupFiles": ["jest-localstorage-mock"]
+    "setupFiles": [
+      "jest-localstorage-mock"
+    ]
   },
   "keywords": [],
   "author": "Adam Cross",
