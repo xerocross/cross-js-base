@@ -13,13 +13,11 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.js$/,
-                loader: "babel-loader",
-                query: {
-                    presets: ["es2015"]
-                }
-            }
-        ]
+              test: /\.js$/,
+              exclude: /node_modules/,
+              use: 'babel-loader',
+            },
+          ]
     },
     optimization: {
         minimize: true

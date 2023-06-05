@@ -1,20 +1,14 @@
 # cross-js-base (2018)
 
 This project includes some very generic tools for front-end use I wanted to write myself.
-I'm not trying to replace Lodash or other battle-tested libraries. I just sometimes write vanilla JS like this for practice.  Everything is Babel-transpiled into es2015 and minified.  The built
-cross-js-base.js file will always include all of its dependencies (if any). 
+I'm not trying to replace Lodash or other battle-tested libraries. I just sometimes write vanilla JS like this for practice.  Everything is Babel-transpiled into `"browsers": "> 0.25%, not dead"`.
 
-This project is **no longer maintained**. See the Retrospect in 2023.
 
 ## Retrospect in 2023
 
 I hardly remember my methods and motives of 2018, but I think in this project I just intended to collect various scripts common to my projects. I'm fairly certain I thought I would end up putting more scripts in this than what you see.
 
-### Known Issues
-
-I can see several noteworthy mistakes I made in writing this project&mdash;not problems in functionality, but in the dev environment. One of them is that I included many dev dependencies in the general dependencies section in my package.json file. I think when I set up those dependencies I just borrowed a list wholesale from another project, including some that I did not actually need for this project. I did not fully understant how to correctly configure a package.json file at the time, and I didn't really understand which dependencies I needed.
-
-Unless and until I repair this project and modernize it, it remains outdated and has flaws. Fixing this is not high on my list of priorities. The code here **does not represent how I would create an npm package today**.
+I have updated this package (as of 2023) so that it builds and all tests pass. It is still very much JavaScrip written in the style of its time, circa 2018. I have not attempted to modernize it. I simply updated the dependencies so you can install it in a dev environment with 0 vulnerabilities reported (at least on my machine, using Windows 11 and Node v18.16.0 in June 2023). My goal was just to make this package something I'm slightly less embarrassed of, but that does not mean this is code like what I would write today.
 
 ## Installation
 
