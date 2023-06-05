@@ -7,7 +7,7 @@ I'm not trying to replace Lodash or other battle-tested libraries. I just someti
 
 I hardly remember my methods and motives of 2018, but I think in this project I just intended to collect various scripts common to my projects. I'm fairly certain I thought I would end up putting more scripts in this than what you see.
 
-I have updated this package (as of 2023) so that it builds and all tests pass. It is still very much JavaScript written in the style of its time, circa 2018. I have not attempted to modernize the scripts. I simply updated the dependencies so you can install it in a dev environment. I'm working on a Windows 11 machine in June 2023 with Node v18.16.0. I'm installing using `npm install`. As of this moment, it installs correctly with 0 vulnerabilities and no warnings about deprecated dependencies. My goal for this update was just to make this package something I'm slightly less embarrassed of, but that does not mean this is code like what I would write today.
+I have updated this package (as of 2023) so that it builds and all tests pass. It is still very much JavaScript written in the style of its time, circa 2018, and transpiled in the style of the day. I have not attempted to modernize the scripts. I simply updated the dependencies so you can install it in a dev environment. I'm working on a Windows 11 machine in June 2023 with Node v18.16.0. I'm installing using `npm install`. As of this moment, it installs correctly with 0 vulnerabilities and no warnings about deprecated dependencies. My goal for this update was just to make this package something I'm slightly less embarrassed of, but that does not mean this is code like what I would write today.
 
 ## Installation
 
