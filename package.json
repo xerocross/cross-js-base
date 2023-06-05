@@ -1,6 +1,6 @@
 {
     "name": "cross-js-base",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "description": "A collection of hand-rolled JavaScript scripts the author though would be useful to package for reuse in his projects.",
     "main": "cross-js-base.js",
     "scripts": {
